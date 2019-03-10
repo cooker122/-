@@ -12,7 +12,7 @@ const config = {
   aliIconFont: '',
   env: {
     mock: {
-      '/security': 'http://yapi.demo.qunar.com/mock/9638'
+      '/mock': 'http://yapi.demo.qunar.com/mock/56001'
     },
     dev: {
       '/security': 'http://your.dev.server'

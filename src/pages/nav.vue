@@ -184,7 +184,7 @@ export default {
 onNew(data, row) {
   console.log(data, row)
   return Axios.post(
-	'http://yapi.demo.qunar.com/mock/56001/navadd',
+	'http://yapi.demo.qunar.com/mock/56001/nav',
 	data
   )
 },
@@ -198,7 +198,7 @@ onEdit(data, row) {
 // 多选时, 参数为selected, 代表选中的行组成的数组
 onDelete: selected => {
   return Axios.delete(
-    'http://yapi.demo.qunar.com/mock/56001/navdel',
+    'http://yapi.demo.qunar.com/mock/56001/nav',
     {
       id: selected.map(v => v.id)
     }
